@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>猜个毛</title>
+
+  <meta name="description" content="Guess what that word is?">
+  <meta name="keywords" content="guess, word">
+  <meta name="author" content="Feifei Hang">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimum-scale=1,maximum-scale=1">
+
+  <link rel="stylesheet" href="vendor/css/normalize.css">
+  <!-- <link rel="stylesheet" type="text/css" href="vendor/css/font.css"> -->
+  <link rel="stylesheet" type="text/css" href="vendor/css/ui.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body ch-scope="appScope">
+  <div id="container" ch-name="container"></div>
+
+  <div id="info" ch-source>Time: {{timer}} | Score: {{good}}/{{total}}</div>
+  <script src="vendor/js/chopjs.js" ch-main="js/main.js"></script>
+</body>
+</html>
